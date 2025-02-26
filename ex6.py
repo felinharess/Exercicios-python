@@ -7,6 +7,5 @@ possui 30 dias.
 mes = int(input("Informe o mes atual: (em numero ex: setembro == 9)\n"))
 dia = int(input("Informe o dia de hj: (numero)\n"))
 
-qtdDias = mes * 30
-qtdDias += dia
+qtdDias = (mes - 1) * 30 + dia
 print(f"Ja se passaram {qtdDias} dias esse ano")
